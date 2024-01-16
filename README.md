@@ -10,6 +10,12 @@ Download file and move to alacritty folder (typically ~/.config/alacritty) or cl
 git clone https://github.com/TwiggieSmallz/Default-Alacritty-TOML-Config.git
 cd Default-Alacritty-TOML-Config/
 cp alacritty.toml ~/.config/alacritty/
+
+# optional font setup:
+
+unzip FisaFont.zip
+sudo cp -r FisaFont/*.ttf /usr/share/fonts/TTF
+
 ```
 
 Created and tested on RebornOS (Arch Linux).
